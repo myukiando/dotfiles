@@ -1,9 +1,9 @@
 sudo apt-get update -y
 suod apt-get upgrade -y
 sudo apt-get install -y zsh vim 
-chsh chsh -s /usr/bin/zsh
+chsh -s /usr/bin/zsh
 
-chmod 775 ~/dotfiles/setup.sh
+chmod 775 ~/dotfiles/set_dotfiles.sh
 ~/dotfiles/set_dotfiles.sh
 
 source ~/dotfiles/.vimrc
